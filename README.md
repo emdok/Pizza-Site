@@ -8,6 +8,10 @@
 
 This user will input the size and toppings that they want on their pizza, and using Javascript and Jquery, the price of the pizza will be returned.
 
+You can view the site here:
+
+https://emdok.github.io/Pizza-Site/
+
 ## Setup/Installation Requirements
 
 * Clone the Git Repository
