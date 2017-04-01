@@ -3,55 +3,65 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat" rel="stylesheet">
     <script src="js/jquery-3.2.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Pizza Site</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Pizza Delivery</h1>
+    <div class="container-fluid">
+      <h1><strong>Pizza Delivery</strong></h1>
     </div>
     <div class="container">
-      <form id="toppings">
-        <h3>Choose your size</h3>
-        <div class="row">
-          <div class="col-xs-4">
-            <div class="form-group">
-              <select class="form-control">
-                <option value="a">12"</option>
-                <option value="b">18"</option>
-              </select>
+      <div class="row">
+        <div class="col-sm-8">
+          <form id="toppings">
+            <h3>Choose your size</h3>
+            <div class="row">
+              <div class="col-xs-4">
+                <div class="form-group">
+                  <select class="form-control">
+                    <option value="a">12"</option>
+                    <option value="b">18"</option>
+                  </select>
+                </div>
+              </div>
             </div>
-          </div>
+
+            <h3>Choose your toppings</h3>
+            <div class="formToppings">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="Pepperoni"> Pepperoni
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="Jalapeno"> Jalapenos
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="Pineapple"> Pineapple
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="Artichoke"> Artichoke Hearts
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-warning">Place Order</button>
+          </form>
         </div>
 
-        <h3>Choose your toppings</h3>
-        <div class="formToppings">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Pepperoni"> Pepperoni
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Jalapeno"> Jalapenos
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Pineapple"> Pineapple
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Artichoke"> Artichoke Hearts
-            </label>
+        <div class="col-sm-4">
+          <h3>Price:</h3>
+          <div class="result">
+            <p id="pResult">$ <span id="result"></span></p>
           </div>
         </div>
-
-        <button type="submit" class="btn btn-warning">Place Order</button>
-      </form>
-      <div id="result">
       </div>
     </div>
   </body>

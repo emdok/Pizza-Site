@@ -60,5 +60,6 @@ $(document).ready(function() {
     var newPizza = new Pizza(pizzaSize, pizzaToppings);
 
     $('#result').append(newPizza.order());
+    $('.result').show();
   });
 });

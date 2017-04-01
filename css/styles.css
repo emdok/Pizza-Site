@@ -1,0 +1,35 @@
+body {
+  background-color: #FED766;
+  color: #484349;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  background-color: #B7F0AD;
+  border-style: dashed;
+  font-size: 60px;
+  text-align: center;
+  padding: 40px;
+  color: #D9594C;
+  font-family: 'Arvo', serif;
+}
+
+h3 {
+  color: #009FB7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #D9594C;
+}
+
+.result {
+  border-style: solid;
+  display: none;
+}
+
+p#pResult {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
