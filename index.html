@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza Site</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pizza Delivery</h1>
+    </div>
+    <div class="container">
+      <form id="toppings">
+        <h3>Choose your size</h3>
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="form-group">
+              <select class="form-control">
+                <option value="a">12"</option>
+                <option value="b">18"</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <h3>Choose your toppings</h3>
+        <div class="formToppings">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="Pepperoni"> Pepperoni
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="Jalapeno"> Jalapenos
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="Pineapple"> Pineapple
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="Artichoke"> Artichoke Hearts
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-warning">Place Order</button>
+      </form>
+      <div id="result">
+      </div>
+    </div>
+  </body>
+</html>
