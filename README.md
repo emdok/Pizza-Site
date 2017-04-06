@@ -19,6 +19,17 @@ https://emdok.github.io/Pizza-Site/
 * Double click Index.html, then view the site in you browser
 * Once open, select size and toppings, then place order for price
 
+## Specifications
+
+1. Customer will choose pizza size
+   Example Input: small
+
+2. Customer will then select Pizza Toppings from checklist.
+   Example Input: Check Pepperoni, Jalapenos, Pineapple
+
+3. Customer will then click Place order and price will display under Price based on input.
+   Output: $15
+
 ## Known Bugs
 
 No known bugs.
